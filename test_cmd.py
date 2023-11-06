@@ -48,6 +48,8 @@ def parse_arg(str_cmd):
             characters = ""
         else:
             characters = characters + char
+    if characters != "":
+        l_cmd.append(characters)
     #l_cmd = str_cmd.split(" ")
     return l_cmd
 
